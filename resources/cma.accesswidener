@@ -1,0 +1,3 @@
+accessWidener v1 named
+
+accessible method net/minecraft/block/ObserverBlock scheduleTick (Lnet/minecraft/world/WorldAccess;Lnet/minecraft/util/math/BlockPos;)V

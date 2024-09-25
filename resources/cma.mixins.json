@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "tech.mctown.cma.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "editableSign.SignBlockEntityMixin",
+    "flintAndSteelActivatesObserver.FlintAndSteelItemMixin",
+    "runCommandOnSign.SignBlockEntityMixin",
+    "fakePlayerGamemode.PlayerCommandMixin"
+  ],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
