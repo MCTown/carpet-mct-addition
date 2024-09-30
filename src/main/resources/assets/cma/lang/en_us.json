@@ -3,5 +3,6 @@
   "carpet.rule.runCommandOnSign.extra": "Texts must start with '/'.",
   "carpet.rule.flintAndSteelActivatesObserver.desc": "Observer will be activated when player uses Flint and Steel on it.",
   "carpet.rule.commandDumpEntity.desc": "Enable the usage of /dumpentity command.",
-  "carpet.rule.fakePlayerGamemode.desc": "Op players can spawn bots in different gamemodes."
+  "carpet.rule.fakePlayerGamemode.desc": "Op players can spawn bots in different gamemodes.",
+  "carpet.rule.fakePlayerColor.desc": "Fake players will have different name colors based on their gamemodes."
 }

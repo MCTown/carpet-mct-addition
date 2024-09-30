@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(PlayerCommand.class)
 public abstract class PlayerCommandMixin {
-    @Inject(method = "cantSpawn", at = @At("HEAD"), remap = false)
+    @Inject(method = "cantSpawn", at = @At("HEAD"), remap = false, cancellable = true)
     static private void checkGamemode(CommandContext<ServerCommandSource> context, CallbackInfoReturnable<Boolean> ci) {
         try {
             StringArgumentType.getString(context, "gamemode");
