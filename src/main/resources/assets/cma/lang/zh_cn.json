@@ -1,0 +1,10 @@
+{
+  "carpet.rule.runCommandOnSign.desc": "非潜行非空手的时候右键告示牌运行上面的指令",
+  "carpet.rule.runCommandOnSign.extra": "命令必须以'/'开头",
+  "carpet.rule.flintAndSteelActivatesObserver.desc": "打火石可以激活侦测器",
+  "carpet.rule.commandDumpEntity.desc": "开启dumpentity命令，打印所有的实体信息",
+  "carpet.rule.fakePlayerGamemode.desc": "OP可以生成不同游戏模式的假人",
+  "carpet.commandWentWrong": "指令出现错误，错误信息如下：",
+  "carpet.runCommandOnSignTips": "提示：如果你想运行告示牌上的指令，请空手潜行右键点击告示牌",
+  "carpet.rule.fakePlayerColor.desc": "Fake players will have different name colors based on their gamemodes."
+}
