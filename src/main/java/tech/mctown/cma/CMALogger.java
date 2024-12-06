@@ -12,6 +12,10 @@ public class CMALogger {
         System.out.println(message);
     }
 
+    public static void debug(String message) {
+        System.out.println("\033[34m[CMA DEBUG]\033[0m" + "\033[33m" + message + "\033[0m");
+    }
+
     public static void toGame(String message, ServerPlayerEntity player) {
         player.sendMessage(Text.of(message), false);
     }
@@ -25,5 +29,10 @@ public class CMALogger {
 
     public static void toGame(String message, PlayerEntity player) {
         player.sendMessage(Text.of(message));
+    }
+
+    public static void error(String s, Exception e) {
+        System.out.println("\033[31m[CMA ERROR]\033[0m" + "\033[33m" + s + "\033[0m");
+        e.printStackTrace();
     }
 }

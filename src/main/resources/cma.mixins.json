@@ -3,9 +3,10 @@
   "package": "tech.mctown.cma.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "fakePlayerGamemode.PlayerCommandMixin",
     "flintAndSteelActivatesObserver.FlintAndSteelItemMixin",
-    "runCommandOnSign.SignBlockEntityMixin",
-    "fakePlayerGamemode.PlayerCommandMixin"
+    "runCommandOnSign.AbstractSignBlockMixin",
+    "runCommandOnSign.SignBlockEntityMixin"
   ],
   "server": [],
   "client": [],
