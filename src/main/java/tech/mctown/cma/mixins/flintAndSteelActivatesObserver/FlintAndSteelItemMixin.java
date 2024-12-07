@@ -41,7 +41,7 @@ public abstract class FlintAndSteelItemMixin {
                 } catch (Exception e) {
                     CMALogger.toConsole("Failed to activate observer");
                 }
-                ci.setReturnValue(ActionResult.success(world.isClient()));
+                ci.setReturnValue(ActionResult.SUCCESS);
             }
         }
     }
