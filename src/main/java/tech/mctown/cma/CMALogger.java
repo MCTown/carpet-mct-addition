@@ -28,7 +28,7 @@ public class CMALogger {
     }
 
     public static void toGame(String message, PlayerEntity player) {
-        player.sendMessage(Text.of(message));
+        player.sendMessage(Text.of(message),false);
     }
 
     public static void error(String s, Exception e) {
